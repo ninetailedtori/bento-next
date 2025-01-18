@@ -11,12 +11,12 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Tori',
   openInNewTab: true,
   title: 'Bento',
 
   // Clock
-  twelveHourFormat: false,
+  twelveHourFormat: true,
   flashSeparator: false,
 
   // Font Family
@@ -24,7 +24,7 @@ export const config: Config = {
     // 'google' or 'local'
     source: 'google',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'JetBrains Mono',
   },
 
   // Theme
@@ -33,7 +33,7 @@ export const config: Config = {
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
   // Set to "" to disable.
-  backgroundImage: '',
+  backgroundImage: 'pixel-galaxy.png',
   themes: [
     // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
     'arc',
@@ -50,8 +50,8 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
-  barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
+  searchEngine: 'ddg', // google, ddg
+  barPlaceholder: 'Search...', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
   // Greetings
@@ -70,8 +70,8 @@ export const config: Config = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '51.361',
+  defaultLongitude: '-0.160',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
@@ -107,7 +107,7 @@ export const config: Config = {
         url: 'https://github.com/', // provide a link to the page.
       },
       {
-        name: 'Mail',
+        name: 'ProtonMail',
         icon: 'envelope',
         url: 'https://mail.protonmail.com/',
       },
